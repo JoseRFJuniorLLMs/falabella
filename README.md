@@ -29,13 +29,15 @@ Enviar el link del repositorio donde se realiza este ejercicio.
 ![](./vai.png)
 # PROYECTO 0 - FrontEnd - Angular8
 ![](./t1.png)
+![](./t2.png)
+![](./t2.png)
 # PROYECTO 1 - Java-REST-MongoDB-WebFlux
 ![](./flux.png)
 Spring Boot 
 Spring WebFlux utiliza internamente Project Reactor y sus implementaciones de editor: Flux y Mono.
 El nuevo marco admite dos modelos de programación: Componentes reactivos basados en anotaciones
 Enrutamiento y manejo funcional MongoDB
-![](./vai3.png)
+
 
 
 
