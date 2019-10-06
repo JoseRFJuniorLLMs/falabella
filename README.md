@@ -30,13 +30,48 @@ Enviar el link del repositorio donde se realiza este ejercicio.
 # PROYECTO 0 - FrontEnd - Angular8
 ![](./t1.png)
 ![](./t2.png)
-![](./t2.png)
+![](./t3.png)
 # PROYECTO 1 - Java-REST-MongoDB-WebFlux
 ![](./flux.png)
 Spring Boot 
 Spring WebFlux utiliza internamente Project Reactor y sus implementaciones de editor: Flux y Mono.
 El nuevo marco admite dos modelos de programación: Componentes reactivos basados en anotaciones
-Enrutamiento y manejo funcional MongoDB
+Enrutamiento y manejo funcional MongoDB.
+
+    //Lista todas las cervezas
+	// Lista todas las cervezas que se encuentran en la base de datos
+	 http://localhost:8080/beers/v1/todos
+
+    ///Lista el detalle de la marca de cervezas
+	//Obtiene el precio de una caja de cerveza por su Id
+	http://localhost:8080/beers/v1/id/{id}
+
+	///Lista el detalle de la marca de cervezas por name
+	http://localhost:8080/beers/v1/name/{name}
+
+    ///Lista el detalle de la marca de cervezas por brewery
+	http://localhost:8080/beers/v1/brewery/{brewery}"
+
+    ///Lista el detalle de la marca de cervezas por probar
+	http://localhost:8080/beers/v1/probar/{probar}
+
+    ///Lista el detalle de la marca de cervezas por star
+	http://localhost:8080/beers/v1/star/{star}
+
+    ///Lista el detalle de la marca de cervezas por coutry
+	http://localhost:8080/beers/v1/coutry/{coutry}
+
+    ///Lista el precio de una caja de cervezas de una marca
+	//Obtiene el precio de una caja de cerveza por su Id
+	http://localhost:8080/beers/v1/{id}/boxprice
+
+    //Ingresa una nueva cerveza
+	http://localhost:8080/beers/v1/nuevo
+
+    //Lista el detalle de la marca de cervezas ...events
+	http://localhost:8080/beers/events
+
+
 
 
 
