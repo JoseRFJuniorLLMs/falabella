@@ -1,0 +1,29 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Beer List</h2>
+  </div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>brewery</th>
+          <th>coutry</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let beer of beers | async">
+          <td>{{beer.name}}</td>
+          <td>{{beer.brewery}}</td>
+          <td>{{beer.coutry}}</td>
+          <td><button (click)="deleteBeer(beer.id)" class="btn btn-danger">Delete</button>
+              <button (click)="updateBeer(beer.id)" class="btn btn-info" style="margin-left: 10px">Update</button>
+              <button (click)="beerDetails(beer.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

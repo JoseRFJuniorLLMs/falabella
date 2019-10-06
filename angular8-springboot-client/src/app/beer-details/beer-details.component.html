@@ -1,0 +1,20 @@
+<h2>Beer Details</h2> 
+
+<hr/>
+<div *ngIf="beer">
+  <div>
+    <label><b>First Name: </b></label> {{beer.firstName}}
+  </div>
+  <div>
+    <label><b>Last Name: </b></label> {{beer.lastName}}
+  </div>
+  <div>
+    <label><b>Email Id: </b></label> {{beer.emailId}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Beer List</button><br>
+
+
