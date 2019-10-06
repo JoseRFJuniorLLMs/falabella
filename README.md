@@ -28,9 +28,9 @@ Enviar el link del repositorio donde se realiza este ejercicio.
 # Solución:
 ![](./t0.png)
 # PROYECTO 0 - FrontEnd - Angular8
-![](./t1.png)
-![](./t2.png)
-![](./t3.png)
+![](./t01.png)
+![](./t02.png)
+![](./t03.png)
 # PROYECTO 1 - Java-REST-MongoDB-WebFlux
 ![](./flux.png)
 Spring Boot 
