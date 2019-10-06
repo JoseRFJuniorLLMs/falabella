@@ -26,7 +26,7 @@ Entrega:
 Enviar el link del repositorio donde se realiza este ejercicio.
 
 # Solución:
-![](./vai.png)
+![](./t0.png)
 # PROYECTO 0 - FrontEnd - Angular8
 ![](./t1.png)
 ![](./t2.png)
